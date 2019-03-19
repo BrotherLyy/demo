@@ -1,0 +1,13 @@
+---
+spring:
+  datasource:
+    name: db
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///myemployees
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:/mapper/*Mapper.xml
