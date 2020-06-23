@@ -12,4 +12,5 @@ public interface JobsDao {
 
     @Select("select * from jobs")
     List<Jobs> getAllJobs();
+
 }
